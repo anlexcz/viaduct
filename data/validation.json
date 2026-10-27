@@ -1,0 +1,179 @@
+{
+  "checks": {
+    "sourceTrips": 185,
+    "noInvalidGPX": true,
+    "maximumOutputEdgeMeters": 80.092,
+    "maximumOutputEndpointDistanceFromItsOSMWayMeters": 0.067,
+    "countConservation": true,
+    "networkSha256Matches": true,
+    "regressionTestsPassed": 5
+  },
+  "sampleRoutes": [
+    {
+      "name": "Praha hl.n. → Praha-Vršovice",
+      "file": "viaduct_trip_prahahl_prahavr.gpx",
+      "sourceKm": 2.543,
+      "unmatchedKm": 0.026,
+      "p95ResidualMeters": 5.2,
+      "trkseg": 1,
+      "rejected": 0
+    },
+    {
+      "name": "Praha hl.n. → Beroun",
+      "file": "viaduct_trip_prahahl_beroun.gpx",
+      "sourceKm": 43.016,
+      "unmatchedKm": 0.306,
+      "p95ResidualMeters": 5.7,
+      "trkseg": 5,
+      "rejected": 0
+    },
+    {
+      "name": "Praha-Libeň → Praha-Klánovice",
+      "file": "viaduct_trip_prahali_prahakl (1).gpx",
+      "sourceKm": 12.138,
+      "unmatchedKm": 0.0,
+      "p95ResidualMeters": 0.0,
+      "trkseg": 2,
+      "rejected": 0
+    },
+    {
+      "name": "Liberec → Varnsdorf",
+      "file": "viaduct_trip_liberec_varnsdo.gpx",
+      "sourceKm": 42.739,
+      "unmatchedKm": 0.144,
+      "p95ResidualMeters": 0.2,
+      "trkseg": 5,
+      "rejected": 0
+    },
+    {
+      "name": "Varnsdorf → Jedlová",
+      "file": "viaduct_trip_varnsdo_jedlov.gpx",
+      "sourceKm": 20.587,
+      "unmatchedKm": 0.023,
+      "p95ResidualMeters": 0.0,
+      "trkseg": 1,
+      "rejected": 0
+    },
+    {
+      "name": "Poprad-Tatry → Nová Lesná",
+      "file": "viaduct_trip_popradt_novlesn.gpx",
+      "sourceKm": 8.027,
+      "unmatchedKm": 0.0,
+      "p95ResidualMeters": 0.0,
+      "trkseg": 1,
+      "rejected": 0
+    },
+    {
+      "name": "Zakopane → Kraków Główny",
+      "file": "viaduct_trip_zakopan_krakwgw.gpx",
+      "sourceKm": 135.808,
+      "unmatchedKm": 0.386,
+      "p95ResidualMeters": 4.0,
+      "trkseg": 6,
+      "rejected": 0
+    },
+    {
+      "name": "Praha hl.n. → Warszawa Centralna",
+      "file": "viaduct_trip_prahahl_warszaw.gpx",
+      "sourceKm": 735.123,
+      "unmatchedKm": 4.831,
+      "p95ResidualMeters": 4.9,
+      "trkseg": 35,
+      "rejected": 6
+    },
+    {
+      "name": "Kraków Główny → Bohumín",
+      "file": "viaduct_trip_krakwgw_bohumn.gpx",
+      "sourceKm": 130.364,
+      "unmatchedKm": 2.388,
+      "p95ResidualMeters": 5.3,
+      "trkseg": 19,
+      "rejected": 2
+    }
+  ],
+  "maximumFrequencySamples": [
+    {
+      "a": [
+        14.521461,
+        50.099535
+      ],
+      "b": [
+        14.52068,
+        50.099824
+      ],
+      "count": 25,
+      "osmWay": 4630016,
+      "ref": ""
+    },
+    {
+      "a": [
+        14.52068,
+        50.099824
+      ],
+      "b": [
+        14.520279,
+        50.09997
+      ],
+      "count": 25,
+      "osmWay": 4630016,
+      "ref": ""
+    },
+    {
+      "a": [
+        14.520279,
+        50.09997
+      ],
+      "b": [
+        14.519691,
+        50.10016
+      ],
+      "count": 25,
+      "osmWay": 4630016,
+      "ref": ""
+    },
+    {
+      "a": [
+        14.519691,
+        50.10016
+      ],
+      "b": [
+        14.51968,
+        50.100163
+      ],
+      "count": 25,
+      "osmWay": 4630016,
+      "ref": ""
+    },
+    {
+      "a": [
+        14.519228,
+        50.10029
+      ],
+      "b": [
+        14.519037,
+        50.100339
+      ],
+      "count": 25,
+      "osmWay": 4630016,
+      "ref": ""
+    },
+    {
+      "a": [
+        14.519037,
+        50.100339
+      ],
+      "b": [
+        14.518729,
+        50.100411
+      ],
+      "count": 25,
+      "osmWay": 4630016,
+      "ref": ""
+    }
+  ],
+  "limitations": [
+    "Matching acceptance is not independently verified accuracy.",
+    "697 short transitions need review; rejected source gaps are separate.",
+    "Parallel normalization remains approximate in complex yards and with incomplete OSM tags."
+  ]
+}
