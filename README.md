@@ -88,6 +88,6 @@ Možný budoucí jmenovatel: délka všech provozovaných osobních železničn�
 
 ## Licence a nasazení
 
-Železniční síť a odvozené geometrie: © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/). Výřezy poskytuje Geofabrik. GPX jízd: export uživatele Anlex. Leaflet: BSD-2-Clause, licence ve `vendor/leaflet-LICENSE`. Podkladové dlaždice: OSM/CARTO; web zachovává atribuci.
+Železniční síť a odvozené geometrie: © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/). Výřezy poskytuje Geofabrik. GPX jízd: export uživatele Anlex. Leaflet: BSD-2-Clause, licence ve `vendor/leaflet-LICENSE`. Podkladové dlaždice: OpenStreetMap; tmavý vzhled vytváří CSS filtr pouze nad podkladovou vrstvou. Web zachovává atribuci.
 
 GitHub Pages publikuje kořen větve `main`. Soubor `.nojekyll` zachovává statické soubory. Bez falešného datasetu: při chybě načtení web zobrazí chybu místo náhradních jízd. Staré `trips.js`, `segments.js` a builder ručně vytvořených trips byly odstraněny.

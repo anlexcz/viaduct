@@ -5,7 +5,7 @@ const enabled=bins.map(()=>true);let railLayer,stats,qaLayer,qaPromise;
 function bin(n){return bins.findIndex(b=>n>=b[1]&&n<=b[2])}
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 const map=L.map('map',{preferCanvas:true,minZoom:4,maxZoom:19}).setView([50.05,15.5],7);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:20,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://carto.com/attributions">CARTO</a>',subdomains:'abcd'}).addTo(map);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(map);
 const RailCanvas=L.Layer.extend({
  initialize(data){this.rows=data.segments;this.ways=data.ways;this.grid=new Map()},
  onAdd(m){this._map=m;this.canvas=L.DomUtil.create('canvas','rail-canvas leaflet-layer');this.getPane().appendChild(this.canvas);m.on('moveend zoomend resize viewreset',this.schedule,this);m.on('mousemove',this.hover,this);m.on('click',this.click,this);m.on('mouseout movestart',this.clearTip,this);this.schedule()},
