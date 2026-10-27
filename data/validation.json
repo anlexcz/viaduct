@@ -175,5 +175,17 @@
     "Matching acceptance is not independently verified accuracy.",
     "697 short transitions need review; rejected source gaps are separate.",
     "Parallel normalization remains approximate in complex yards and with incomplete OSM tags."
-  ]
+  ],
+  "visualReview": {
+    "method": "Overlay of source GPX, OSM ways and canonical output in EPSG:3035",
+    "regions": [
+      "Praha-Libeň (maximum intensity)",
+      "Praha-Vršovice and parallel station tracks",
+      "Zittau / cross-border Liberec-Varnsdorf",
+      "Poprad and TEŽ narrow gauge",
+      "Warszawa Centralna approaches",
+      "Praha-Bubny / Dejvice"
+    ],
+    "result": "No long off-network connectors observed in reviewed overlays. Unmatched and source breaks remain visible as gaps."
+  }
 }
