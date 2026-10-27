@@ -91,3 +91,30 @@ Možný budoucí jmenovatel: délka všech provozovaných osobních železničn�
 Železniční síť a odvozené geometrie: © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/). Výřezy poskytuje Geofabrik. GPX jízd: export uživatele Anlex. Leaflet: BSD-2-Clause, licence ve `vendor/leaflet-LICENSE`. Podkladové dlaždice: OpenStreetMap; tmavý vzhled vytváří CSS filtr pouze nad podkladovou vrstvou. Web zachovává atribuci.
 
 GitHub Pages publikuje kořen větve `main`. Soubor `.nojekyll` zachovává statické soubory. Bez falešného datasetu: při chybě načtení web zobrazí chybu místo náhradních jízd. Staré `trips.js`, `segments.js` a builder ručně vytvořených trips byly odstraněny.
+
+## Grafika na Instagram a červená identita
+
+Tlačítko **Vytvořit grafiku** otevře živý náhled. Stahuje skutečný PNG o rozměrech **1920 × 1080** (na šířku) nebo **1080 × 1920** (Stories). Volit lze lehce parodickou či čistou hlavičku, vlastní dovětek, mapový podkres a čtvrtou statistiku. Kromě nejčastějšího spojení, nejdelší jízdy a času ve vlaku jsou dostupné projeté země, cestovní dny, nejsilnější měsíc a průměrná délka jízdy. Každý export používá celý dataset, nezávisle na právě skrytých kategoriích či posunutí mapy.
+
+Paleta: `#ff3636` a výhradně neutrální šedá škála. Export kreslí vektorové geometrie přímo do canvasu. Žádné screenshoty mapy, cizí dlaždice nebo síťový backend při generování PNG; písma, logo a vektorový kontext jsou součástí webu. Písma Montserrat a Bebas Neue jsou lokální pod SIL OFL; licence jsou v `assets/fonts/`.
+
+### Odkud pocházejí čísla
+
+Dodaný export `viaduct-trips(1).json` obsahoval 343 záznamů z let 2024–2026. Agregátor vybírá 185 platných železničních jízd roku 2026 a kontroluje shodu všech časů odjezdu s GPX. Raw export s poznámkami, cenami a dalšími soukromými poli se do veřejného repozitáře **neukládá**. Publikují se jen agregované statistiky a hash zdroje.
+
+- Evidence Viaductu: **13 241,18 km**, **189 h 39 min**, **72 cestovních dní**.
+- Nejčastější dvojice koncových stanic v obou směrech: **Hradec Králové hl.n. ↔ Praha-Vysočany, 12 jízd**. Jde o spojení podle koncových stanic, nikoli frekvenci všech průjezdů úsekem.
+- Nejdelší jízda: **Praha hl.n. → Warszawa Centralna, 749,92 km**.
+- Země: čtyři podle průběhu GPX; Německo zahrnuje tranzit. JSON sám uvádí pouze CZ/PL/SK, proto jeho seznamy zemí nestačí.
+
+Webový hlavní údaj kilometrů a grafika nyní používají **evidovanou vzdálenost Viaductu**. Původní údaj 13 130,5 km zůstává správným měřením dostupné GPX geometrie bez mezer a skoků; jde o jinou veličinu. Veškeré QA metriky map-matchingu zůstávají nad GPX. Čas z exportu je evidovaná délka cesty, nikoli měření skutečné jízdy včetně všech zpoždění.
+
+```bash
+python tools/build_share_stats.py /cesta/k/viaduct-trips.json
+python tools/build_graphic_context.py --network data/network.json.gz --out data/graphic-context.json.gz --borders /cesta/k/countries.geojson
+python -m unittest discover -s tools -p 'test_share*.py'
+```
+
+Hranice pro jemný podkres: [geo-countries / Natural Earth](https://github.com/datasets/geo-countries/blob/master/data/countries.geojson), veřejná geografická data. Exportní kontext obsahuje zjednodušené železnice OSM ze stejného snapshotu a hranice oříznuté na střední Evropu; není statistikou celkové železniční sítě.
+
+Oficiální logo Viaductu pochází z [vektorového assetu viaduct.world](https://viaduct.world/_app/immutable/assets/viaduct-logo.dae5e212.svg). Pro tuto monochromatickou identitu je použita bílá varianta, tvar loga je zachován. Logo je značkou viaduct OG; jeho uvedení označuje zdroj uživatelových dat, nikoli oficiální partnerství nebo autorství tohoto projektu.

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "year": 2026,
+  "tripCount": 185,
+  "recordedKm": 13241.18,
+  "durationMinutes": 11379,
+  "travelDays": 72,
+  "countryCodes": [
+    "CZ",
+    "PL",
+    "SK",
+    "DE"
+  ],
+  "dateFrom": "2026-01-05",
+  "dateTo": "2026-10-04",
+  "favoriteConnection": {
+    "from": "Hradec Králové hl.n.",
+    "to": "Praha-Vysočany",
+    "count": 12
+  },
+  "longestTrip": {
+    "from": "Praha hl.n.",
+    "to": "Warszawa Centralna",
+    "km": 749.92,
+    "durationMinutes": 540
+  },
+  "averageKm": 71.57,
+  "busiestMonth": {
+    "month": "2026-04",
+    "count": 40
+  },
+  "source": {
+    "kind": "Viaduct JSON export",
+    "sha256": "8436fbd6f7c6b01dfeab82436136a2b09ea43a5400aecdbcb8fdda688493151f",
+    "totalExportItems": 343,
+    "matchedGpxDepartures": 185,
+    "distanceNote": "Recorded distance in Viaduct, including parts missing from GPX.",
+    "durationNote": "Recorded duration, not a measurement of actual time including delays.",
+    "countriesNote": "Countries intersected by mapped GPX; includes German transit not present in trip endpoint country lists."
+  }
+}
