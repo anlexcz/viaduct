@@ -1,0 +1,2057 @@
+{
+  "schemaVersion": 1,
+  "gpxCount": 185,
+  "pointCount": 286741,
+  "rejectedLinks": 42,
+  "sourceKm": 13130.4818,
+  "kmByCountry": {
+    "CZ": 11081.7855,
+    "PL": 1575.7469,
+    "SK": 454.4699,
+    "DE": 18.4794
+  },
+  "foreignKm": 2048.6962,
+  "unknownKm": 0.0,
+  "method": "EPSG:3035 edge clipping against country polygons; every occurrence counted; GPX gaps and >1500m jumps excluded",
+  "borderSource": "Natural Earth / datasets/geo-countries",
+  "borderSourceSha256": "392a03db8aa3ba82c105852655620129b11182b95dfc34ef046827ea7d0e5b8c",
+  "boundarySimplificationMeters": 2,
+  "notice": "Approximate distance in available GPX, not the full Viaduct recorded distance; missing GPX parts are not imputed.",
+  "trips": [
+    {
+      "file": "viaduct_trip_any_senohra.gpx",
+      "sha256": "0f944c591b7ef388cd6f0d32916935fc6f791ff4966a81246e9acf59e16f3245",
+      "kmByCountry": {
+        "CZ": 14.4464,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_banskby_valask.gpx",
+      "sha256": "32e7a110a8c10727e07377f0242692d88b4fef0a9533fb75561184f0920b369a",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 37.6009,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_beroun_prahahl.gpx",
+      "sha256": "13704ca04ea3068093edc8a1823d3ebf6f5cc4105a74bc88718e7c82af24bf81",
+      "kmByCountry": {
+        "CZ": 43.0163,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_beroun_roztoky.gpx",
+      "sha256": "67cf4cf6c53b67b79b9c32517011c6787005ffe64f2409e73a90b9bbedd5dbf5",
+      "kmByCountry": {
+        "CZ": 26.7255,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_bltemen_starpak.gpx",
+      "sha256": "1078a5b7d14bc7f2e959d8a2ac6c6b4b40fb664053ffa995ca44c034a44c13d0",
+      "kmByCountry": {
+        "CZ": 24.1673,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_bohumn_ostrava.gpx",
+      "sha256": "ec67d9ec8781d5c47b3c7967f258d31e33c99e643c7be97ea4037d1f7321d835",
+      "kmByCountry": {
+        "CZ": 14.3371,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_brann_hanuovi.gpx",
+      "sha256": "903eba0cdf209895e852e254279b064e5546400cedec22afdebef4bab0d3ddfb",
+      "kmByCountry": {
+        "CZ": 12.4793,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_brnohln_kyjov.gpx",
+      "sha256": "ad256fa8774d260cb8daafb0e53d9f1b370c0dbb5f96e53a3f7be6c688c6399f",
+      "kmByCountry": {
+        "CZ": 63.5728,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_brnohln_prahahl (1).gpx",
+      "sha256": "7122fd0379f8e5cb7ecd3a6ec64dbe683b1f35dd6aacc36e7c28d42dadc5413d",
+      "kmByCountry": {
+        "CZ": 253.9492,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_brnohln_prahahl.gpx",
+      "sha256": "78ad7c2a6bec10b8080635b80fa4c69ee78a000f94d1e0f2ac9d216b4221e4a5",
+      "kmByCountry": {
+        "CZ": 253.9492,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_bruntl_ztor.gpx",
+      "sha256": "ab925eefc9da1ec560a60271459deee2c987399b48674f9678ffbd4a452b0ca5",
+      "kmByCountry": {
+        "CZ": 13.7836,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_chlumec_prahavy.gpx",
+      "sha256": "c8a9d99e67ae00323a27893a0ef1fc181dcf9c59011cd3406a110a050081bcfe",
+      "kmByCountry": {
+        "CZ": 84.4695,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_choce_prahahl.gpx",
+      "sha256": "4b663105a357a142a068140253570f9a890fcf2e33c45ae0482271137738e1fa",
+      "kmByCountry": {
+        "CZ": 138.5527,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_choce_prahali.gpx",
+      "sha256": "12229618dbdb134382834222656c752cc5917e0485ac3f1cf362126cf513a8ca",
+      "kmByCountry": {
+        "CZ": 133.1834,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_chomuto_prahaho (1).gpx",
+      "sha256": "236a75a4b915c2b98065f5554380a94f62fd39cd9d11274860200838bdae817b",
+      "kmByCountry": {
+        "CZ": 175.0484,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_chomuto_prahaho (2).gpx",
+      "sha256": "91e5aa46f497c4445845dc4188653a2127fc8b25761895f020b06e18df4d26ff",
+      "kmByCountry": {
+        "CZ": 173.1319,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_chomuto_prahaho (3).gpx",
+      "sha256": "78e0b92f49ad120d31c6b8052895c32c13af168122afa69ff8030d9c6076b6f5",
+      "kmByCountry": {
+        "CZ": 173.129,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_chomuto_prahaho (4).gpx",
+      "sha256": "526b7295f8a647fbd4006a766e52513fe2fb69d589593155ce497e8e1a6983f1",
+      "kmByCountry": {
+        "CZ": 173.129,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_chomuto_prahaho.gpx",
+      "sha256": "df08f9331cb5f89be05d7c1856c1466e30b585bdc19ef182b7906f4fd35fbe6e",
+      "kmByCountry": {
+        "CZ": 211.765,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_chomuto_stnadla.gpx",
+      "sha256": "941c7de16276b35bb5190123efd413a29d2f6fa9e32c4c48b7d9c64281e44c2c",
+      "kmByCountry": {
+        "CZ": 70.494,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_chotbo_havlkvb.gpx",
+      "sha256": "6491c09879216b7434632de33ab59a0fc0213109c1bccfca8237abe4869d2c90",
+      "kmByCountry": {
+        "CZ": 17.2998,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_chrudim_chotbo.gpx",
+      "sha256": "8fc88432682f689f32c2fcd21712e1754256b52941816d90d595a8f6cc43718c",
+      "kmByCountry": {
+        "CZ": 63.1612,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_chvlkov_jindich.gpx",
+      "sha256": "005090e7159f5d0c5fc234787197aca2884e5f0d2cc09e98681ddb2b0025d376",
+      "kmByCountry": {
+        "CZ": 29.9821,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_dobruka_oponopo.gpx",
+      "sha256": "a812ce2f5c7cde463ab61e5af32671d9b99d1bc3ae3d5be7b359b769da42f7a8",
+      "kmByCountry": {
+        "CZ": 5.3306,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_doksy_mladbol.gpx",
+      "sha256": "cf3537f692790414f026bbbf35ba55e1611ca1e9ee97a6f82709f7d805aab271",
+      "kmByCountry": {
+        "CZ": 38.5832,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_erany_prahahl.gpx",
+      "sha256": "01d8209614f9fd165c798b528abf1683f8217e8eac88859deec7c0a2f5787922",
+      "kmByCountry": {
+        "CZ": 41.9614,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_erany_prahaza.gpx",
+      "sha256": "f2c9b20dc9d7dd5b2e3d4ec22adb1a44acc7caa763dcbac6ff03fb3b4c3ae57f",
+      "kmByCountry": {
+        "CZ": 35.3636,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_eskskal_nchod.gpx",
+      "sha256": "612d0ec3615544f242dce5bcf14b4825f626c47c8a93a2d58ac93ef848c2048e",
+      "kmByCountry": {
+        "CZ": 13.7472,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_evnice_prahasm.gpx",
+      "sha256": "84ab142bd4ab88d88c82fbf2f403d7b171f88bedba072c05a01482e015f5692a",
+      "kmByCountry": {
+        "CZ": 23.0731,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hanuovi_letohra.gpx",
+      "sha256": "61af1ac16fc64828e6f69e028d8bb532361014f5f2ebf2afd013343d8ceec69f",
+      "kmByCountry": {
+        "CZ": 42.8682,
+        "PL": 3.082,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_havlkvb_prahali.gpx",
+      "sha256": "6fb942c5155fcdf3212b1186acf855e752273074f253fe7105686e5393aee7ba",
+      "kmByCountry": {
+        "CZ": 130.722,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_havlkvb_svtlnad.gpx",
+      "sha256": "2e0a2b4da174bfc45be2b237a82fef8ec19cbc17fb812b4c497e00be1d9f5c15",
+      "kmByCountry": {
+        "CZ": 15.8013,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hnvice_prahaho (1).gpx",
+      "sha256": "0fbdf423cf370fda485a17216a61a429bf91b9780cd0d383a9d808f51bf1fd5c",
+      "kmByCountry": {
+        "CZ": 54.915,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hnvice_prahaho.gpx",
+      "sha256": "4915dc9fd0499e965e07e7ce4262af05a943831f1ba57e92f0bbc93d3cb78a8c",
+      "kmByCountry": {
+        "CZ": 54.9178,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hradeck_eskskal.gpx",
+      "sha256": "3dd0ef988a5a65ba8c760840b95095bf14b4bcf48b2fcd5a46dc602e93f2793e",
+      "kmByCountry": {
+        "CZ": 30.0289,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hradeck_malsvat.gpx",
+      "sha256": "cc60f7543a0b54174b0d922770af580ab632bbcf2a59e75f2bcc15314ab6a5f4",
+      "kmByCountry": {
+        "CZ": 53.3145,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hradeck_pardubi (1).gpx",
+      "sha256": "444c368ae7fed191867e67c9dba6b1db2bddbbc4d901a510387d8c8b014b8442",
+      "kmByCountry": {
+        "CZ": 21.7333,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hradeck_pardubi.gpx",
+      "sha256": "b12204395bd9cb62e5f30c07235a45262f23b6eee349e74c14b15d3fa3b54a6d",
+      "kmByCountry": {
+        "CZ": 21.7333,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hradeck_prahahl.gpx",
+      "sha256": "63e262777283d3e0ebeca478b95b5ba649b82fbf775985ad4661e92e288c32d5",
+      "kmByCountry": {
+        "CZ": 118.6662,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hradeck_prahavy (1).gpx",
+      "sha256": "55a7ca2bceea76c42670dd56fa7cc160d60e4a4c01091ef24607b8234822b8d5",
+      "kmByCountry": {
+        "CZ": 112.5198,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hradeck_prahavy (2).gpx",
+      "sha256": "7e4ae1881aac307c18f8b42ef9efab7b765b8b6b0698b59ce3e2be3f2a908480",
+      "kmByCountry": {
+        "CZ": 112.4165,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hradeck_prahavy (3).gpx",
+      "sha256": "6ffd1f3b34a41f163a67e39b16f96095b2d8a0115e248e0add97974270798ee6",
+      "kmByCountry": {
+        "CZ": 112.4165,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hradeck_prahavy (4).gpx",
+      "sha256": "30baed8d25c11ff9c3f8f41069d0b4fc6debe2ed586cf0337af11b37d63d2f3f",
+      "kmByCountry": {
+        "CZ": 112.5198,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_hradeck_starko.gpx",
+      "sha256": "8dcbbadfdfa03f7c503f2b5eb3a2bb3cb4ad54d2f3c53b66e199991b7b723ae7",
+      "kmByCountry": {
+        "CZ": 36.2299,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_jarom_bltemen.gpx",
+      "sha256": "574408b5975daf406ca633b1b2c22d328a09ce35aa07a62a67df0635d3ee9f89",
+      "kmByCountry": {
+        "CZ": 21.0999,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_jarom_hradeck.gpx",
+      "sha256": "582d221681ef57d2a5bbb679f34b1ead7b648d853d59b8a4dbc57ada8f130730",
+      "kmByCountry": {
+        "CZ": 17.4811,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_jedlov_doksy.gpx",
+      "sha256": "a7199728f8dfa0c78be82265b2e34cbea7de8c6a7c6d474539221384983832d5",
+      "kmByCountry": {
+        "CZ": 41.6616,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_jesenk_brann.gpx",
+      "sha256": "080f26ec899bf59eb511eaf9e17ea5fccd17351b36c5e5f452b5674c97983cd1",
+      "kmByCountry": {
+        "CZ": 23.3596,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_jihlava_havlkvb.gpx",
+      "sha256": "268668b18357c6e317d9ae1b60dfc49eba26d95810c290a186c2136ab8b1c2be",
+      "kmByCountry": {
+        "CZ": 25.4264,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_jindich_chvlkov.gpx",
+      "sha256": "15882c4931c26ed1b21f22f72bc958531398437eebd1cc2e7db03a503243b869",
+      "kmByCountry": {
+        "CZ": 30.1173,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_jindich_veselna.gpx",
+      "sha256": "972128250b57ae982966351a41307f00ceae6f2b2ef379667455258ddce23c50",
+      "kmByCountry": {
+        "CZ": 26.8356,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_josefvd_smrovka.gpx",
+      "sha256": "1cbe66617d45bfa47635d50e8d5756ea32c262b4b81edaf0396a019dc71ae263",
+      "kmByCountry": {
+        "CZ": 6.7038,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_kadapru_kada.gpx",
+      "sha256": "98586c8bac09870da86ce6889500428f709e50b31298835cd0b5eea4e9e442b0",
+      "kmByCountry": {
+        "CZ": 5.6647,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_kcovzas_erany.gpx",
+      "sha256": "679bea79b666166a9b953bbb7069579bc7db03be874a1b0d7e753a570d5b5d1e",
+      "kmByCountry": {
+        "CZ": 44.5732,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_kladno_hostivi.gpx",
+      "sha256": "9da0d6d758aeaafc410963073da73a1b11cf579eb4b00713a2254110b543b561",
+      "kmByCountry": {
+        "CZ": 13.2734,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_klterec_chomuto.gpx",
+      "sha256": "9cce41e1c4b3aa3d60a074ac12223fde8070e90835df0f430dac15e1511ea66c",
+      "kmByCountry": {
+        "CZ": 17.9214,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_krakwgw_bohumn.gpx",
+      "sha256": "cac6f0a78db8049455e3cb03a55eea3fcdd138ba5d44ac74340f4a5f8637b12e",
+      "kmByCountry": {
+        "CZ": 16.0755,
+        "PL": 114.2887,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_kralupy_prahabu.gpx",
+      "sha256": "936553b17e787f96ff44d3c6a816fb7f7da3715e5295b3ee821403873c3f6996",
+      "kmByCountry": {
+        "CZ": 25.5512,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_kralupy_velvary.gpx",
+      "sha256": "7b442d3c7f4a37371b0d77dd318ec2bdd43c215a72336cb97494280ff38cc1cc",
+      "kmByCountry": {
+        "CZ": 9.6817,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_krnov_temenve.gpx",
+      "sha256": "d4daf5e7c387a5c15bb63eb846924806c5d3ce924c6b53e782753fb5199b76ea",
+      "kmByCountry": {
+        "CZ": 7.597,
+        "PL": 8.4113,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_kyjov_veselna.gpx",
+      "sha256": "0a4be0c82a32b1c64a2b5b5cbe33c2208f1b0693d471fbaab246c7ad9f68b15b",
+      "kmByCountry": {
+        "CZ": 23.7562,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_letohra_hradeck.gpx",
+      "sha256": "a1fd359159ecffb72193541f60ce8e4791ee3eca116391292c617d5c6e28c940",
+      "kmByCountry": {
+        "CZ": 62.1869,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_letohra_stnador.gpx",
+      "sha256": "68dd83e896966ba53e608fad66587b6a18a673a0ef711558d715975967f1b53c",
+      "kmByCountry": {
+        "CZ": 13.75,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_liberec_varnsdo.gpx",
+      "sha256": "5f96d9acc53797764d8ec17660762948ec85206300cde6716cb623b0011bf09b",
+      "kmByCountry": {
+        "CZ": 20.7462,
+        "PL": 3.9848,
+        "SK": 0.0,
+        "DE": 18.0075
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_litomic_vetaty.gpx",
+      "sha256": "96639eede9c95b5b98a65a4bc63df7cbfcb5f480b7a54f2268d9e811d5f84fca",
+      "kmByCountry": {
+        "CZ": 46.802,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_litomyl_choce (1).gpx",
+      "sha256": "b99f9300014adc4c5d25b1a1819d32b4039c2e38398b7648cc420e7c23995383",
+      "kmByCountry": {
+        "CZ": 23.733,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_litomyl_choce.gpx",
+      "sha256": "1f51effcd56da19ff994559c5e5d4b1a5f7191d34c4c9ea0c624d452566e311f",
+      "kmByCountry": {
+        "CZ": 23.7349,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_meno_mladbol.gpx",
+      "sha256": "8338dbc73a383ca9b70b59b2fa929afbefcc2f22839b6eb4bda4628242162c1f",
+      "kmByCountry": {
+        "CZ": 25.7427,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_mikulov_zlathor.gpx",
+      "sha256": "7342f088310c795b83a1a52c9b69844f23225b1240895fb275f9df04c3199d2b",
+      "kmByCountry": {
+        "CZ": 3.1492,
+        "PL": 5.5052,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_mladbol_prahaak.gpx",
+      "sha256": "1b240ef2464bdc56ba1c37508e1910ab7c9853a157cb8fa945c325283bb8e624",
+      "kmByCountry": {
+        "CZ": 53.0738,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_mladbol_vetaty.gpx",
+      "sha256": "4e8035d9c5a131665817399c17bef2c0ce0da0af320f9ea999373ec74d72c0b0",
+      "kmByCountry": {
+        "CZ": 32.7441,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_mlnk_meno.gpx",
+      "sha256": "eb99b0582ecd88cdb42b1d07630e3eb424b6d1a51f5906d52b03679b3230842d",
+      "kmByCountry": {
+        "CZ": 23.7836,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_moravan_chrudim.gpx",
+      "sha256": "5ff37e001d1f05268f4df802130281d4e6c8deeda4a511e8e18e44b1bfa3f3c5",
+      "kmByCountry": {
+        "CZ": 17.9148,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_moravsk_jemnice.gpx",
+      "sha256": "bf733fb3202ed93dba8335b219dde5d21c7a397e87e378cf92256fe3769de61c",
+      "kmByCountry": {
+        "CZ": 20.7449,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_moravsk_okky.gpx",
+      "sha256": "c474c701efb41fe893e1342237511e22e7469bf0b8d62507f4644eec67d9cff3",
+      "kmByCountry": {
+        "CZ": 31.3973,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_most_kadapru.gpx",
+      "sha256": "b79bc0e659455d02b241a453c03bcd9cd774bd74d9395cec4d5a91209ffdb6a5",
+      "kmByCountry": {
+        "CZ": 34.6865,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_myjava_trenian (1).gpx",
+      "sha256": "0dc9c65fe29b33ac75115f7ba7953194f13e9d08e204a20f3e559e69d2e11c4a",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 42.1873,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_myjava_trenian.gpx",
+      "sha256": "ab69e4d49870b0bc82a369dbda8b7c2a731b6073df2cf430e35aa31f66d8a358",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 42.1873,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_nchod_jarom.gpx",
+      "sha256": "a259a115c660c6c4e6b67f402bdeb7f136475b41268e3afe1e99f76417c17f0b",
+      "kmByCountry": {
+        "CZ": 26.4403,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_nchod_novmsto.gpx",
+      "sha256": "911fb7d230102665a5d00f0da31e388aaaa2f9bc80e66fc0b763701e7262d500",
+      "kmByCountry": {
+        "CZ": 10.4219,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_novlesn_starsmo.gpx",
+      "sha256": "1e494d3a0c892048c4636c40a695d45f05a15eaa070119fd21a3e3b79cb95ef7",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 4.7065,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_novmsto_oponopo.gpx",
+      "sha256": "71d3be01578fda6dcbe5d3edd9b32f919cd5504903a691a7ac69637002ce167d",
+      "kmByCountry": {
+        "CZ": 10.6442,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_novstra_kladno.gpx",
+      "sha256": "ba7d30d8cf6410dceabef292ebd51238175ff2c11c72e044525b2dd07e4fc782",
+      "kmByCountry": {
+        "CZ": 20.568,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_nymburk_sadsk.gpx",
+      "sha256": "03b84c18257568463b0b4c17b46753743cd12b9f649d37c063fd0cd167439633",
+      "kmByCountry": {
+        "CZ": 9.7034,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_okky_jihlava.gpx",
+      "sha256": "e1fbc85e2d891ec3895a11dcaef0f565d2cab05b8661e1706127c23713495098",
+      "kmByCountry": {
+        "CZ": 28.7518,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_opavavc_bruntl.gpx",
+      "sha256": "e0822f07a49f5d478940c3f4738b570d4466581d2228f47974cd7c1b46df1155",
+      "kmByCountry": {
+        "CZ": 35.0829,
+        "PL": 16.8432,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_oponopo_dobruka.gpx",
+      "sha256": "eda4118acd8d269d251c666ada3c83badda9d234a849d21c54f4a0c068132260",
+      "kmByCountry": {
+        "CZ": 5.3306,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_oponopo_tnitnad.gpx",
+      "sha256": "915e97f3c788aab8b30fdd1cef7a861c7f7e533b80c066b60c411f3ec698464a",
+      "kmByCountry": {
+        "CZ": 15.5214,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_osoblah_temenve.gpx",
+      "sha256": "b8c714dabdfdb436212847e1d8d9a9d8dd239aa86fb7ee4a000bfbb68c6784b1",
+      "kmByCountry": {
+        "CZ": 17.6872,
+        "PL": 2.4337,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_ostrava_opavavc.gpx",
+      "sha256": "c6e94f609c6b979850693d2a98b71daf918bcecfc91ee105504cfd9394c3cb5a",
+      "kmByCountry": {
+        "CZ": 28.3746,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_ostrava_prahahl.gpx",
+      "sha256": "92fc1b61b717d45f02468d5320b44234427bfd1e26580f3203b9e4adcec59c9e",
+      "kmByCountry": {
+        "CZ": 352.3638,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_pardubi_prahahl.gpx",
+      "sha256": "227af473fbb00c3ed9e93353141a9b4a260517b4f5e6a945118328f0cde9d75c",
+      "kmByCountry": {
+        "CZ": 103.8597,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_pardubi_prahali (1).gpx",
+      "sha256": "3851fc03bbc991f8bf15e0c6358c23fc8bae026b4ba4f44fe1e72fddb2b5d2a9",
+      "kmByCountry": {
+        "CZ": 98.2974,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_pardubi_prahali.gpx",
+      "sha256": "bff70c85a0255b3b28a77fa72cad96efffbe5fbddf77f1ce2930b14d87a68875",
+      "kmByCountry": {
+        "CZ": 98.2855,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_pardubi_recusku (1).gpx",
+      "sha256": "d83cacec14f8c950b55871bee39ad8dc80825272857991d038a525addc2f8d21",
+      "kmByCountry": {
+        "CZ": 37.9702,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_pardubi_recusku.gpx",
+      "sha256": "42ed1fdde35b1125df6c50054891172b799a6a0bf92ca3f332e0d1b5004fbd4b",
+      "kmByCountry": {
+        "CZ": 39.1531,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_peky_prahali.gpx",
+      "sha256": "db2982f4bce6e8e51bc4fc170c4a6b8fc03eb64ad4e131b40f1971f1e052dbed",
+      "kmByCountry": {
+        "CZ": 41.1926,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_poany_peky.gpx",
+      "sha256": "852d26f99d348fa9b47bd3b6d839fbe568e92b6c71421cc82108311ecb532156",
+      "kmByCountry": {
+        "CZ": 7.9424,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_podleso_trbskpl.gpx",
+      "sha256": "33f5c1be717ea59c29f7b4339070de53852878ad1d1f6263fff2a3c63e086bba",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 19.0547,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_pohorel_ervensk.gpx",
+      "sha256": "d3efe9dceb3e40d8ca67a792f93aa92f683e2557122d6806a69fe9725cc3d504",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 10.2801,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_popradt_novlesn.gpx",
+      "sha256": "e10216b544ce8692f965c49188061412c09910313fa9d85eb0ff7130a45b311c",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 8.0267,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_poznagw_prahali.gpx",
+      "sha256": "60d7640ab3fdb68663fdc88c52e120d99584fbe51598c36adc8d2b721a825c85",
+      "kmByCountry": {
+        "CZ": 181.6142,
+        "PL": 270.9892,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahabu_kralupy.gpx",
+      "sha256": "e6c15fd6d7beaafb5172cb2b5fd2417a11ac38edf7fd63ef5bd223db4fa4477b",
+      "kmByCountry": {
+        "CZ": 25.5279,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahabu_prahapo (1).gpx",
+      "sha256": "9639791fb6e67e6f81ecec9545469fb3419c9980cbbc566505d40252509deb7b",
+      "kmByCountry": {
+        "CZ": 4.0948,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahabu_prahapo.gpx",
+      "sha256": "8e4f6da0669506559eefab33183b7bc19fd9c6fd5d2f666642d445d7358ee5d0",
+      "kmByCountry": {
+        "CZ": 4.0948,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_any (1).gpx",
+      "sha256": "f8a1f42902f0694e5b9f9e07a5d292bb152cae41c8446b21bfdbfa8fdb79cd74",
+      "kmByCountry": {
+        "CZ": 21.1934,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_any.gpx",
+      "sha256": "cced711af5dfa3e101829bc0b9550076b7f20a3118dacbe6cbf1603b2014c6cd",
+      "kmByCountry": {
+        "CZ": 21.1934,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_beroun.gpx",
+      "sha256": "b9c16aae460819cdfffa66f656a5ab3c129c1c47ccd444b65f453a96e6a29c26",
+      "kmByCountry": {
+        "CZ": 43.0163,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_brnohln (1).gpx",
+      "sha256": "d7f2f504005ec3c28b677c1243e3525d9474882437a247e86bef294cf09458d9",
+      "kmByCountry": {
+        "CZ": 253.7937,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_brnohln (2).gpx",
+      "sha256": "fbf9f2568238e55ed6d8778b94bd262a16e0213749d5af91c5ed4c6824b5eced",
+      "kmByCountry": {
+        "CZ": 253.7937,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_brnohln.gpx",
+      "sha256": "af45dc898ba9beb8ad720a5da829f80375b0649a97ba77b33e421a374f548f22",
+      "kmByCountry": {
+        "CZ": 253.7937,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_chomuto.gpx",
+      "sha256": "956dc46b29423c700e659ad24a2d03b7d3b772eb7a78ba432ae7253f266702b2",
+      "kmByCountry": {
+        "CZ": 181.1544,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_evnice.gpx",
+      "sha256": "2c136660cd83e92a796cd6fda50f0e06bf9f45e70b1cc23f6a68ec6a76377589",
+      "kmByCountry": {
+        "CZ": 27.7694,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_ostrava.gpx",
+      "sha256": "9ebfca2067917e2ae913ee29eb2dcc654a963e4b29c0268f706d88c000a74720",
+      "kmByCountry": {
+        "CZ": 346.9465,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_pardubi.gpx",
+      "sha256": "e95409dcb756a79fd746839a1fabd305bd788b89c5ab53d24f044b966eea4327",
+      "kmByCountry": {
+        "CZ": 103.8438,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_poznagw.gpx",
+      "sha256": "f1a6f09ecd89752860b73ba926b35f70b2d847764bf4dd78bba2670c425a495c",
+      "kmByCountry": {
+        "CZ": 187.4309,
+        "PL": 271.4578,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_prahavr.gpx",
+      "sha256": "682e76125cd15a0eee9fbdd3fad348f9c6b5027c07ab4c60c2c7d602c51a9d9e",
+      "kmByCountry": {
+        "CZ": 2.5432,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_senohra.gpx",
+      "sha256": "cb70d8fb477f3b9aa78419c5f46522761821ed92f01a465ee6e193f61fd8080b",
+      "kmByCountry": {
+        "CZ": 35.6359,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_veselna.gpx",
+      "sha256": "e8a9f1229e86c4d4a22114833679038f4c9dba3b326d1dee4a38de68285b849c",
+      "kmByCountry": {
+        "CZ": 126.9045,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahahl_warszaw.gpx",
+      "sha256": "00112d3607aac69e3281ab2d4475df40de176523179476bb3bb0b60fea0b3a9c",
+      "kmByCountry": {
+        "CZ": 377.1034,
+        "PL": 358.0196,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahaho_bohuovi.gpx",
+      "sha256": "06e91223eb1625fed46642fd01b322d9fc0c60a33fe54194b6cd897b93fda26f",
+      "kmByCountry": {
+        "CZ": 75.9816,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahaho_chomuto (1).gpx",
+      "sha256": "ebe27c73aba01e3b96d84df4523984459c2caeca14fc95a72056079b770bb060",
+      "kmByCountry": {
+        "CZ": 173.35,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahaho_chomuto (2).gpx",
+      "sha256": "065811dfa9944e96d45a8beba6ddd614034a7c71a8405b0a20d8b0c4f18a8f0c",
+      "kmByCountry": {
+        "CZ": 173.35,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahaho_chomuto (3).gpx",
+      "sha256": "ebe082c31c756be2d0e51066d0a258e2674ed7e2cdb60931ed1ea3d7b3407f41",
+      "kmByCountry": {
+        "CZ": 173.35,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahaho_chomuto.gpx",
+      "sha256": "f4c2554a7e265dd7a30385bb7c09c2fa18b24bfc4206e54d8d08c94960fca18c",
+      "kmByCountry": {
+        "CZ": 173.35,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahaho_hnvice (1).gpx",
+      "sha256": "1a88ad38ac5c456627723b2ab50425ad9edf6b8fe99d540d47cf6bea40d9533d",
+      "kmByCountry": {
+        "CZ": 54.9142,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahaho_hnvice.gpx",
+      "sha256": "62e5681619d6a8dd2efd0299f6afc68580634b0411edb388e8fe66b7bf745150",
+      "kmByCountry": {
+        "CZ": 54.9171,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahaho_stnadla.gpx",
+      "sha256": "ea7f538f49e0482712db48d21159bb424aa2e808fef8d332c0ddeaa08a694814",
+      "kmByCountry": {
+        "CZ": 104.7312,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahakl_prahali.gpx",
+      "sha256": "1493fe1df1539f1fef0965ae4ab06c839664631e1ae7c3b6a2f3c39349c60a80",
+      "kmByCountry": {
+        "CZ": 12.105,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahali_pardubi.gpx",
+      "sha256": "2d3a114fe7613d16493bf3774b6838345d574bb1d6d1806730dfd94114346c51",
+      "kmByCountry": {
+        "CZ": 98.2893,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahali_prahado.gpx",
+      "sha256": "a615efcebfdcbb83ca97192118e354204a829a5cfdf0592c231420c2f6e4ac81",
+      "kmByCountry": {
+        "CZ": 5.2195,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahali_prahakl (1).gpx",
+      "sha256": "9a60dd44b46b473e3b026d5a2036349e1229960373c63e934c33fa189a4d6f79",
+      "kmByCountry": {
+        "CZ": 12.138,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahali_prahakl.gpx",
+      "sha256": "ce10f449c81ee6fe989243e65c34e2223e3b454fe9c76148b89705c35d1dabd9",
+      "kmByCountry": {
+        "CZ": 12.138,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahama_prahade.gpx",
+      "sha256": "b0b5f1c30c611afad2ffdd9aaefc9200846f1e90bd39c71562808963dfd78224",
+      "kmByCountry": {
+        "CZ": 5.3629,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahavr_prahahl.gpx",
+      "sha256": "714e62a65b645807702907f03a2e86d383118f471d57b690f1b3d86feb33b0b9",
+      "kmByCountry": {
+        "CZ": 2.5483,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahavy_hradeck (1).gpx",
+      "sha256": "1b81001737e8de753bd2402498eb11dd92e7d883155b74dbfe8f02fdef3e0225",
+      "kmByCountry": {
+        "CZ": 112.5021,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahavy_hradeck (2).gpx",
+      "sha256": "5079cca684450f0e906198e122a2fa90d0c8156e906b7239bda8f898e6200f7c",
+      "kmByCountry": {
+        "CZ": 112.4554,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahavy_hradeck (3).gpx",
+      "sha256": "4a005f9b0690df3563e781a56f698e0a8e45b414d9024d1e0022439cba6116bf",
+      "kmByCountry": {
+        "CZ": 112.5021,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahavy_hradeck (4).gpx",
+      "sha256": "6bccbde4708899fdc16e60397e1d53c64db0e9624c7fecc8dcc5ce275d3e2c6e",
+      "kmByCountry": {
+        "CZ": 112.5021,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahavy_hradeck (5).gpx",
+      "sha256": "2534d2f39e787eae66d4383b53ab5d8cb2a2037368abf7de197888a6df06bcab",
+      "kmByCountry": {
+        "CZ": 112.6082,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahavy_hradeck (6).gpx",
+      "sha256": "49fb6fb11923592ab4d5422ad6ec5fa21bbe2f036f7c664c79df359652a2dba8",
+      "kmByCountry": {
+        "CZ": 112.6082,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahavy_hradeck (7).gpx",
+      "sha256": "49b4d8ba6afe465f7d2da82db71369cde16f835f8f20b544d25dd0d094af0e7a",
+      "kmByCountry": {
+        "CZ": 112.6082,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahavy_hradeck (8).gpx",
+      "sha256": "af2f979b7918d5a1cec13a5cc46c4eb492bd85d7d415316370588e08e95e0b00",
+      "kmByCountry": {
+        "CZ": 112.5021,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahavy_nymburk.gpx",
+      "sha256": "6af5e6a3425e0e5d647694204dfb2b23e2dbdcad5c639152d39b96a47af9f012",
+      "kmByCountry": {
+        "CZ": 43.4359,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahavy_stranic.gpx",
+      "sha256": "7edc02d6568c863a26ed9ff5a21611fb468a4fb41fe340cd2bb57fbe2be2d59b",
+      "kmByCountry": {
+        "CZ": 29.4496,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_prahavy_tanvald.gpx",
+      "sha256": "d07241c9da4a2b33bad4cb34e986bd341ed9647c53e3abaf37562650c6edf16a",
+      "kmByCountry": {
+        "CZ": 130.3278,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_radvani_trutnov.gpx",
+      "sha256": "376dd3368ce053ae1f800fbd5c2769ac677157690c53dee25f5c4e8867a089e8",
+      "kmByCountry": {
+        "CZ": 15.471,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_roztoky_beroun.gpx",
+      "sha256": "29ed4d5033ccf6eaae367ecf73f8d1abea7d52cacc26c7cc7de66b7833a1a8d9",
+      "kmByCountry": {
+        "CZ": 26.6611,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_sadsk_poany.gpx",
+      "sha256": "6055c18ec8bb476b1b3d07b9f4009f26c47323e00615d240131e33b08f5c8362",
+      "kmByCountry": {
+        "CZ": 5.869,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_senohra_prahaza.gpx",
+      "sha256": "62ce03908ea168f20e8d24b39ebfb358a9d92de4e76058f1cade76a642c645ce",
+      "kmByCountry": {
+        "CZ": 28.5709,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_smrovka_josefvd.gpx",
+      "sha256": "4bd110475017c4847e1bcf48c5882be4c8ae565d18dce0ecb65791ef74c52d12",
+      "kmByCountry": {
+        "CZ": 6.7043,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_smrovka_liberec.gpx",
+      "sha256": "aeb2b810d10044d4e02fbca8a35b0b0549338efa5217a0afcd3c59409928f8f0",
+      "kmByCountry": {
+        "CZ": 20.698,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_sopotni_letohra.gpx",
+      "sha256": "6b6a30ac82403b0a0020df3d1801de2373dfba728a54ab78dd1673e319df4beb",
+      "kmByCountry": {
+        "CZ": 17.7307,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_starpak_chlumec.gpx",
+      "sha256": "0ce11e65995a2f038bbd94f9d1f9111a3f20d477e95806a63a0fc598c670510d",
+      "kmByCountry": {
+        "CZ": 51.3198,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_starsmo_tatrans.gpx",
+      "sha256": "da30903157340336c8329693fe9ae4bfb89f70f8d8bc93a752208c5d639ff55e",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 5.9244,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_stnadla_prahahl.gpx",
+      "sha256": "8e57799720932d708d283771f632a5f220751c581bdae2ff93a9dae3fe9004a6",
+      "kmByCountry": {
+        "CZ": 112.5496,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_stnadla_prahaho.gpx",
+      "sha256": "55115eb526e446827f745db3cae51a97bfceaf1d2bfe0b09228224979a024a41",
+      "kmByCountry": {
+        "CZ": 104.5519,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_stnador_moravan.gpx",
+      "sha256": "ff44cf51ecf43500fd1c147dc9d4074dd0ca44fa728d1d9342ae0bc121b1808f",
+      "kmByCountry": {
+        "CZ": 35.1353,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_stranic_prahaza.gpx",
+      "sha256": "57a11dbf757eb5ed495d66e14cdef7bbd815a1c9ed42f31c8eb9783c6797f69b",
+      "kmByCountry": {
+        "CZ": 21.0358,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_svtlnad_zrunads.gpx",
+      "sha256": "6f9cde6fa70af585f8de5528cf4762e2d7fa167fc8525399fe37007172c51ecf",
+      "kmByCountry": {
+        "CZ": 32.6075,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_tanvald_smrovka.gpx",
+      "sha256": "45d0c9903165da1a71c4d310815f793e9d0e4a9908f3dd8c2ef6862eafed7fd4",
+      "kmByCountry": {
+        "CZ": 6.7154,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_temenve_mikulov.gpx",
+      "sha256": "0fe162ac7ba67236ff63f621651fa2f7b655e2c21d6d1ba9319d4b00b6a51d3a",
+      "kmByCountry": {
+        "CZ": 9.4828,
+        "PL": 18.971,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_temenve_osoblah.gpx",
+      "sha256": "029fca6c096bd6f1d4ce119a52f00061b2631802a72fe3cecf8f9a2213deb691",
+      "kmByCountry": {
+        "CZ": 17.8145,
+        "PL": 2.4337,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_tnitnad_pottejn.gpx",
+      "sha256": "5ca8a5cabaec2ae6309410c969d8c8d7c6a4ef1a03b418242d085e19f4f96d81",
+      "kmByCountry": {
+        "CZ": 20.2428,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_trbskpl_novlesn.gpx",
+      "sha256": "266256b683c00a8fa8ac6e7a8d79a10f24a4d01d948f367dbf4126d11cdc6fe2",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 20.7298,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_trenian_myjava.gpx",
+      "sha256": "3c49fe529216d6f0aeb518c6c7304216ca65f6b62e17739b1b58976713f4088e",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 42.1873,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_trenian_trenn.gpx",
+      "sha256": "2b6054fd892ee307de168dd1461a026b63eba810063054fb77b9dba2e3668556",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 18.0036,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_trenn_vrtky.gpx",
+      "sha256": "1fa28da2b93af369776e43140c31d83709933905900d2c36eb808c775def4019",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 97.6465,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_trutnov_hradeck.gpx",
+      "sha256": "24745d41b5b90020655f55d992ff21a6b7065bbaa5169738f52cc67930d98ed9",
+      "kmByCountry": {
+        "CZ": 69.1655,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_valask_hepa.gpx",
+      "sha256": "32f2f29baf21ddb2a8230184c57e68ffa14ef49ad6b9beaac50c716bf6ebb8fc",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 33.3999,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_varnsdo_jedlov.gpx",
+      "sha256": "1522b1a7b243b4914ab775185c10a04b23ee60583d8d339281dd50214f0bc108",
+      "kmByCountry": {
+        "CZ": 20.1149,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.4719
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_velvary_kralupy.gpx",
+      "sha256": "f0540894aa3d75072a4512161ede9aaddad16aefd00b798ad83b6d65795c9a82",
+      "kmByCountry": {
+        "CZ": 9.8509,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_veselna_jindich.gpx",
+      "sha256": "862522dbd1303e121f8edbe98ff364b860b00d8c08eed39916658c86e0e8ad21",
+      "kmByCountry": {
+        "CZ": 26.8198,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_veselna_myjava.gpx",
+      "sha256": "67075360bfd530c90a266d1903505dd72ef664a3ea9f16bc2f1bedd3b3c973f4",
+      "kmByCountry": {
+        "CZ": 24.447,
+        "PL": 0.0,
+        "SK": 5.0711,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_veselna_prahahl.gpx",
+      "sha256": "bbb2ef4edddba4d361fecd84bc72b07eeebede207971e312cbfc6c373b8353e0",
+      "kmByCountry": {
+        "CZ": 126.896,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_vetaty_kojetic.gpx",
+      "sha256": "615bc52587373be11db8095137eb996a1b3ef655619d1986393ded28ba591965",
+      "kmByCountry": {
+        "CZ": 9.1326,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_vetaty_mlnk.gpx",
+      "sha256": "26f8c21254dac6927ce5da101637ace396f9b32b738152d31119345d3e7afbf5",
+      "kmByCountry": {
+        "CZ": 10.8157,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_vetaty_prahaak.gpx",
+      "sha256": "807d14b1072da2da2f3e64b321c03e37014d2c38b20735262f85e0cca1ae4852",
+      "kmByCountry": {
+        "CZ": 20.3619,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_vrtky_banskby.gpx",
+      "sha256": "bf3c9555abebad7a2e91985ccc564d186fd76ece3e35b7550d22500ab19f6d7d",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 0.0,
+        "SK": 67.4635,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_warszaw_prahali.gpx",
+      "sha256": "3bbe0343e4143877b5e1e98311180cae1b1abc69ad8f565f987e8d13dbd778f6",
+      "kmByCountry": {
+        "CZ": 371.5556,
+        "PL": 358.0135,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_zakopan_krakwgw.gpx",
+      "sha256": "f103a81edad35c9f72ed7adb7f5f01b813f6582abc0258e3be0767b0e7859397",
+      "kmByCountry": {
+        "CZ": 0.0,
+        "PL": 135.808,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_zlathor_jesenk.gpx",
+      "sha256": "028f472b3579f5655c62b0f0c9b751d53d050561ef6d4c6f370cd8b73e1940a7",
+      "kmByCountry": {
+        "CZ": 16.3315,
+        "PL": 5.5052,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_zlenice_erany.gpx",
+      "sha256": "94359b6a10bb0959f4b283df46683723f707461a70ef5d3bad44788b90cec326",
+      "kmByCountry": {
+        "CZ": 4.1497,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_zrunads_kcovzas.gpx",
+      "sha256": "16b968d9eb571ea2bad4dc3d5f39879fccc0d85a4668edf1bdb539fdd1a57c1e",
+      "kmByCountry": {
+        "CZ": 12.0412,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    },
+    {
+      "file": "viaduct_trip_ztor_krnov.gpx",
+      "sha256": "dc92788cea499973fa1416dafe65e6ce7c59a66f7f0929a0b1a53151399352ce",
+      "kmByCountry": {
+        "CZ": 9.0518,
+        "PL": 0.0,
+        "SK": 0.0,
+        "DE": 0.0
+      },
+      "unknownKm": 0.0
+    }
+  ]
+}

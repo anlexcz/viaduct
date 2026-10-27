@@ -94,9 +94,9 @@ GitHub Pages publikuje kořen větve `main`. Soubor `.nojekyll` zachovává stat
 
 ## Grafika na Instagram a červená identita
 
-Tlačítko **Vytvořit grafiku** otevře živý náhled. Stahuje skutečný PNG o rozměrech **1920 × 1080** (na šířku) nebo **1080 × 1920** (Stories). Volit lze lehce parodickou či čistou hlavičku, vlastní dovětek, mapový podkres a čtvrtou statistiku. Kromě nejčastějšího spojení, nejdelší jízdy a času ve vlaku jsou dostupné projeté země, cestovní dny, nejsilnější měsíc a průměrná délka jízdy. Každý export používá celý dataset, nezávisle na právě skrytých kategoriích či posunutí mapy.
+Tlačítko **Vytvořit grafiku** otevře živý náhled. Stahuje skutečný PNG o rozměrech **1920 × 1080** (na šířku) nebo **1080 × 1920** (Stories). Výchozí je Stories 1080 × 1920, vedle něj zůstává formát na šířku. Volit lze okolní železniční síť a čtvrtou statistiku. Kromě nejčastějšího spojení, nejdelší jízdy a času ve vlaku jsou dostupné projeté země, cestovní dny, nejsilnější měsíc a průměrná délka jízdy. Každý export používá celý dataset, nezávisle na právě skrytých kategoriích či posunutí mapy.
 
-Paleta: `#ff3636` a výhradně neutrální šedá škála. Export kreslí vektorové geometrie přímo do canvasu. Žádné screenshoty mapy, cizí dlaždice nebo síťový backend při generování PNG; písma, logo a vektorový kontext jsou součástí webu. Písma Montserrat a Bebas Neue jsou lokální pod SIL OFL; licence jsou v `assets/fonts/`.
+Rozhraní používá `#ff3636` a neutrální šedou škálu; heatmapa odstíny červené s jemným glow. Kategorie 1× a 2–3× mají téměř shodný odstín a tloušťku. Export kreslí vektorové geometrie přímo do canvasu. Žádné screenshoty mapy, cizí dlaždice nebo síťový backend při generování PNG; písma, logo a vektorový kontext jsou součástí webu. Písma Montserrat a Bebas Neue jsou lokální pod SIL OFL; licence jsou v `assets/fonts/`.
 
 ### Odkud pocházejí čísla
 
@@ -118,3 +118,35 @@ python -m unittest discover -s tools -p 'test_share*.py'
 Hranice pro jemný podkres: [geo-countries / Natural Earth](https://github.com/datasets/geo-countries/blob/master/data/countries.geojson), veřejná geografická data. Exportní kontext obsahuje zjednodušené železnice OSM ze stejného snapshotu a hranice oříznuté na střední Evropu; není statistikou celkové železniční sítě.
 
 Oficiální logo Viaductu pochází z [vektorového assetu viaduct.world](https://viaduct.world/_app/immutable/assets/viaduct-logo.dae5e212.svg). Pro tuto monochromatickou identitu je použita bílá varianta, tvar loga je zachován. Logo je značkou viaduct OG; jeho uvedení označuje zdroj uživatelových dat, nikoli oficiální partnerství nebo autorství tohoto projektu.
+
+## Stories: Rok na železnici
+
+Export má novou sazbu: hlavička „Rok na železnici“, samotný rok, kompaktní čísla a bílé `km`, jejichž spodní linie je zarovnaná s rokem. Neobsahuje počet jízd/dní v hlavičce, vlastní dovětek ani podpis ANLEX. Ve spodním patičkovém prostoru zůstává pouze „Data z“ a logo Viaductu. Povinné uvedení zdroje mapy je decentně umístěné u mapy.
+
+Čtyři výchozí statistiky: Nejčastější spojení, Nejdelší trasa, Čas ve vlaku a V zahraničí. Popisek času uvádí počet **celých 24hodinových dnů**: 189 h 39 min = 7 celých dní. Kilometry i jednotky mají úzké mezery a ručně řízené prostrkání pro shodnou sazbu v různých prohlížečích.
+
+### Kilometry na území jiných států
+
+Nový reprodukovatelný výpočet rozděluje každou platnou zdrojovou GPX hranu průnikem s polygony států v EPSG:3035. Stejná hrana projetá opakovaně se započítává opakovaně; před výpočtem se nedissolvuje. Mezery mezi trkseg ani 42 odmítnutých skoků se nedopočítávají. Sdílená hranice nebo překryv polygonů se přiřadí pouze jednou, v pořadí CZ, PL, SK, DE. Nepřiřazená délka je vedena samostatně a build odmítne více než 100 m mimo známé polygony.
+
+Výsledek pro tento dataset:
+
+| Země | Délka dostupných GPX |
+| --- | ---: |
+| Česko | 11 081,79 km |
+| Polsko | 1 575,75 km |
+| Slovensko | 454,47 km |
+| Německo | 18,48 km |
+| **Mimo Česko** | **2 048,70 km** |
+| Nepřiřazené území | 0 km |
+
+Export zaokrouhluje na **2 049 km** a uvádí „Dle GPX mimo území Česka“. Nejde o rozdělení všech 13 241,18 evidovaných kilometrů: části chybějící v GPX nemají spolehlivě známou polohu a výpočet je neextrapoluje. Hranice jsou geografická data Natural Earth / geo-countries, pro tento výpočet zjednodušená na 2 m; výsledek zůstává geografickým odhadem. Připnuté polygony a jejich zdrojový hash jsou v repozitáři.
+
+```bash
+python tools/build_country_stats.py /cesta/k/GPX --borders data/country-boundaries.json.gz
+# Pouze pro aktualizaci hranic z plného původního GeoJSON:
+python tools/build_country_stats.py /cesta/k/GPX --source-borders /cesta/k/countries.geojson
+python -m unittest discover -s tools -p 'test_country*.py' -v
+```
+
+Po doplnění GPX přestav i `country-stats.json`. Aplikace kontroluje soulad počtu GPX a bodů s mapovým datasetem. Přidání další země vyžaduje rozšíření seznamu polygonů ve skriptu, jinak build skončí chybou místo publikování zavádějícího součtu.
