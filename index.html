@@ -1,46 +1,6 @@
 <!doctype html>
-<html lang="cs">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Viaduct Heatmap</title>
-  <link rel="preconnect" href="https://unpkg.com">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-  <style>
-    :root{color-scheme:dark;--bg:#0c0f14;--panel:#141922;--text:#f4f7fb;--muted:#98a2b3;--border:#252d3a;--accent:#84d1ff}
-    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-    .shell{display:grid;grid-template-columns:320px 1fr;min-height:100vh}.side{padding:28px 24px;border-right:1px solid var(--border);background:var(--panel)}
-    h1{font-size:26px;margin:0 0 8px}.sub{color:var(--muted);line-height:1.45;margin-bottom:24px}.stat{padding:16px 0;border-top:1px solid var(--border)}.stat strong{display:block;font-size:28px}.stat span{color:var(--muted);font-size:13px}
-    .legend{margin-top:24px}.legend-row{display:flex;align-items:center;gap:10px;margin:9px 0;color:var(--muted);font-size:13px}.sw{height:5px;width:42px;border-radius:99px}
-    #map{min-height:100vh}.leaflet-container{background:#0b1017}.note{font-size:12px;color:var(--muted);margin-top:28px;line-height:1.45}
-    @media(max-width:760px){.shell{grid-template-columns:1fr}.side{border-right:0;border-bottom:1px solid var(--border)}#map{min-height:70vh}}
-  </style>
-</head>
-<body>
-<div class="shell">
-  <aside class="side">
-    <h1>Moje železnice 2026</h1>
-    <div class="sub">První verze heatmapy z GPX exportů Viaductu. Čím častěji se stejná trasa překrývá, tím výraznější je čára.</div>
-    <div class="stat"><strong id="tripCount">–</strong><span>jízd v datasetu</span></div>
-    <div class="stat"><strong id="pointCount">–</strong><span>GPS bodů</span></div>
-    <div class="legend">
-      <div class="legend-row"><span class="sw" style="background:#314252"></span>1× projeté</div>
-      <div class="legend-row"><span class="sw" style="background:#4e8da8"></span>2–3×</div>
-      <div class="legend-row"><span class="sw" style="background:#84d1ff"></span>4× a více</div>
-    </div>
-    <div class="note">MVP zatím používá překryv tras jako vizuální heatmapu. Další krok je prostorové sesazení do společných železničních úseků a přesné počítání průjezdů.</div>
-  </aside>
-  <main id="map"></main>
-</div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="data/trips.js"></script>
-<script>
-const map=L.map('map',{zoomControl:true,preferCanvas:true});
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
-const trips=window.VIADUCT_TRIPS||[];let bounds=[];let points=0;
-for(const t of trips){points+=t.points.length;const weight=t.weight||1;const color=weight>=4?'#84d1ff':weight>=2?'#4e8da8':'#314252';const opacity=weight>=4?.95:weight>=2?.72:.5;L.polyline(t.points,{color,weight:2+Math.min(weight,5)*.7,opacity,lineCap:'round',lineJoin:'round'}).bindPopup(`<strong>${t.name}</strong><br>${weight}× v datasetu`).addTo(map);bounds.push(...t.points)}
-document.getElementById('tripCount').textContent=trips.reduce((s,t)=>s+(t.weight||1),0).toLocaleString('cs-CZ');document.getElementById('pointCount').textContent=points.toLocaleString('cs-CZ');
-if(bounds.length)map.fitBounds(bounds,{padding:[24,24]});else map.setView([49.8,15.5],7);
-</script>
-</body>
-</html>
+<html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Viaduct — železniční heatmapa</title><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><style>
+:root{color-scheme:dark;--bg:#0c0f14;--panel:#141922;--text:#f4f7fb;--muted:#98a2b3;--border:#252d3a;--accent:#84d1ff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif}.shell{display:grid;grid-template-columns:320px 1fr;min-height:100vh}.side{padding:28px 24px;border-right:1px solid var(--border);background:var(--panel)}h1{font-size:26px;margin:0 0 8px}.sub,.note{color:var(--muted);line-height:1.5}.sub{margin-bottom:24px}.stat{padding:15px 0;border-top:1px solid var(--border)}.stat strong{display:block;font-size:28px}.stat span{color:var(--muted);font-size:13px}.legend{margin-top:22px}.legend-row{display:flex;align-items:center;gap:10px;margin:9px 0;color:var(--muted);font-size:13px}.sw{height:5px;width:42px;border-radius:99px}.note{font-size:12px;margin-top:26px}#map{min-height:100vh}.leaflet-container{background:#0b1017}@media(max-width:760px){.shell{grid-template-columns:1fr}.side{border-right:0;border-bottom:1px solid var(--border)}#map{min-height:70vh}}
+</style></head><body><div class="shell"><aside class="side"><h1>Moje železnice 2026</h1><div class="sub">Heatmapa skutečně projetých úseků. Opačné směry a opakované GPX jízdy se sesazují do společných segmentů.</div><div class="stat"><strong id="trips">–</strong><span>GPX jízd</span></div><div class="stat"><strong id="segments">–</strong><span>normalizovaných úseků</span></div><div class="stat"><strong id="maximum">–</strong><span>nejvyšší počet průjezdů</span></div><div class="legend"><div class="legend-row"><span class="sw" style="background:#314252"></span>1×</div><div class="legend-row"><span class="sw" style="background:#4e8da8"></span>2–3×</div><div class="legend-row"><span class="sw" style="background:#84d1ff"></span>4× a více</div></div><div class="note">Segment se v rámci jedné GPX jízdy započítá jen jednou. GPX &lt;trkseg&gt; bloky zůstávají oddělené, takže se mezi nimi nekreslí falešné spojnice.</div></aside><main id="map"></main></div><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="data/segments.js"></script><script>
+const d=window.VIADUCT_DATA||{segments:[]};const map=L.map('map',{preferCanvas:true});L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);let bounds=[];function color(n){return n>=4?'#84d1ff':n>=2?'#4e8da8':'#314252'}function opacity(n){return n>=4?.95:n>=2?.78:.52}for(const s of d.segments){L.polyline([s.a,s.b],{color:color(s.count),weight:2+Math.min(s.count,6)*.65,opacity:opacity(s.count),lineCap:'round'}).bindTooltip(`${s.count}× projeté`).addTo(map);bounds.push(s.a,s.b)}trips.textContent=(d.tripCount||0).toLocaleString('cs-CZ');segments.textContent=(d.segmentCount||d.segments.length).toLocaleString('cs-CZ');maximum.textContent=(d.maxCount||0)+'×';if(bounds.length)map.fitBounds(bounds,{padding:[24,24]});else map.setView([49.8,15.5],7);
+</script></body></html>
